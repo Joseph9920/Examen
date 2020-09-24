@@ -1,0 +1,186 @@
+body{
+	font-size: Segoe UI;
+	font-size: 15px;
+	color: #777;
+}
+header{
+	position: relative;
+	background-color: #282932;
+	width: 100%;
+	top:0;
+	border-bottom: 1px dashed rgba(255, 255, 255, 0.15);
+}
+#hero{
+	padding: 100px;
+	background-color: #282932;
+}
+#hero h2{
+	font-size: 95px;
+	color: #fff;
+	font-weight: bold;
+}
+#hero h3{
+	font-size: 65px;
+	color: #f7b614;
+	font-weight: bold;
+}
+#hero p{
+	color: #fff;
+}
+#hero button{
+	text-align: center;
+	background-color: #f7b614;
+	color: #fff;
+	font-size: 35px;
+}
+#Popular{
+	padding: 50px;
+	text-align: center;
+}
+#Popular h2{
+	color: #000;
+	font-weight: bold;
+	font-size: 45px;
+}
+#Popular h6{
+	text-align: center;
+	color: #f7b614;
+}
+#Popular h4{
+	text-align: center;
+	color: #000;
+	font-weight: bold;
+}
+#Popular p{
+	text-align: center;
+	color: #000;
+}
+#Popular h5{
+	color: #000;
+	font-weight: bold;
+}
+#Popular button{
+	background-color: #f7b614;
+	color: #000;
+	font-weight: bold;
+}
+#Sit{
+	background-color:  #282932;
+	text-align: left;
+	padding: 90px;
+}
+#Sit h2{
+	font-size: 55px;
+	font-weight: bold;
+	color: #fff;
+}
+#Sit h3{
+	font-size: 55px;
+	font-weight: bold;
+	color:  #f7b614;
+}
+#Sit p{
+	color: #fff;
+	font-size: 18px;
+}
+#Sit i{
+	font-size: 30px;
+	color: #f7b614;
+	padding: 40px;
+}
+#Sit h4{
+	color: #fff;
+	font-weight: bold;
+	font-size: 20px;
+}
+#Sit h5{
+	color: #fff;
+	font-size: 15px;
+}
+#Sit button{
+	font-size: 30px;
+	background-color: #f7b614;
+	color: #fff;
+}
+.Sit{
+	position: relative;
+	overflow: hidden;
+}
+
+.Sit-nombre{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	color: #fff;
+	text-align: center;
+	display: grid;
+	align-content: center;
+	background-color: #4859fc;
+	opacity: 0;
+	transition: all 0.5s ease-in-out;
+}
+.Sit:hover .Sit-nombre{
+	opacity: 1;
+	transition: all 0.5s ease-in-out;
+}
+.Sit:hover img{
+	transform: scale(1.4);
+	transition: all 1s ease-in-out;
+}
+.Sit-watch{
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	text-align: center;
+	color: #fff;
+	z-index: 1;
+	
+}
+
+#CTA{
+	background-color: #f7b614;
+	padding: 50px;
+}
+#CTA h5{
+	color: #fff;
+}
+#CTA h3{
+	color: #000;
+	font-size: 40px;
+	font-weight: bold;
+}
+#CTA i{
+	font-size: 45px;
+	color: #000;
+	text-align: center;
+	padding: 30px;
+}
+#CTA button{
+	background-color: #000;
+	color: #fff;
+	font-size: 30px;
+}
+
+
+
+
+footer{
+	background-color: #282932;
+	background-image: url(../img/footer-bg.png);
+	background-size: cover;
+	padding-top: 40px;
+	color: rgba(255, 255, 255, 0.55);
+	text-align: center;
+	font-size: 13px;
+	font-weight: 600;
+}
+footer p span{
+	color: #f7b614;
+}
+footer #copy{
+	padding: 20px 0;
+	margin-top: 5%;
+	color: #fff;
+	border-top: 1px dashed rgba(255, 255, 255, 0.15);
+}
